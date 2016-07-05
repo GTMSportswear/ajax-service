@@ -1,0 +1,32 @@
+{
+  "name": "ajax-service",
+  "version": "1.0.0",
+  "description": "ajax-service is used as a promise-based abstraction of XMLHttpRequest.",
+  "main": "dist/ajax.js",
+  "scripts": {
+    "build": "npm run build:lint && npm run build:compile",
+    "build:lint": "tslint src/*",
+    "build:compile": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GTMSportswear/ajax-service"
+  },
+  "keywords": [
+    "fetch",
+    "ajax",
+    "gtmsportswear",
+    "gtm",
+    "xhr"
+  ],
+  "author": "Austin Green",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GTMSportswear/ajax-service/issues"
+  },
+  "homepage": "https://github.com/GTMSportswear/ajax-service#readme",
+  "devDependencies": {
+    "tslint": "^3.13.0",
+    "typescript": "^1.8.10"
+  }
+}
